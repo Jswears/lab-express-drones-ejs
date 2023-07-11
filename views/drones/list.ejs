@@ -1,1 +1,9 @@
 <h2>Available drones</h2>
+
+<% droneList.forEach(drone => { %>
+<div class="drone-card">
+  <p>Name: <%= drone.name %></p>
+  <p>Propellers: <%= drone.propellers %></p>
+  <p>Speed: <%= drone.speed %></p>
+</div>
+<% }) %>
