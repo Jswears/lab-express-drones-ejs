@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: auto;
 }
 
 a {
@@ -12,3 +13,4 @@ a {
   border: 2px solid black;
   border-radius: 5px;
 }
+
